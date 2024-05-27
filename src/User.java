@@ -1,11 +1,11 @@
 public class User {
-    String name;
-    String surname;
-    String secondName;
-    String dateOfBirth;
-    String email;
+    private String name;
+    private String surname;
+    private String secondName;
+    private String dateOfBirth;
+    private String email;
 
-    User(String name, String surname, String secondName, String dateOfBirth, String email){
+    public User(String name, String surname, String secondName, String dateOfBirth, String email){
         this.name = name;
         this.surname = surname;
         this.secondName = secondName;
@@ -14,7 +14,7 @@ public class User {
 
     }
 
-    void info(){
+    public void info(){
         System.out.print("ФИО: ");
         System.out.print(name + " ");
         System.out.print(surname + " ");

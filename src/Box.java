@@ -16,15 +16,6 @@ public class Box {
         System.out.println("размер ящика " + size + "\nцвет " + color);
     }
 
-//    void isLock(){
-//        System.out.println("Желаете открыть ящик? введите да или нет");
-//        Scanner scanner = new Scanner(System.in);
-//        String answer = scanner.nextLine();
-//        if(answer == "да"){
-//            System.out.println("Ящик открыт");
-//        }
-
-
     void open() {
         if (IsOpen) {
             System.out.println("Ящик открыт");
