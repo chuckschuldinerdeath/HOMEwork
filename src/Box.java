@@ -1,15 +1,15 @@
 public class Box {
 
-    int size;
-    String color;
-    boolean IsOpen;
-    boolean IsEmpty;
+    private int size;
+    private String color;
+    private boolean isOpen;
+    private boolean isEmpty;
 
-    Box(int size, String color, boolean IsOpen, boolean IsEmpty) {
+    public Box(int size, String color, boolean isOpen, boolean isEmpty) {
         this.size = size;
         this.color = color;
-        this.IsOpen = IsOpen;
-        this.IsEmpty = IsEmpty;
+        this.isOpen = isOpen;
+        this.isEmpty = isEmpty;
     }
 
     void info() {
@@ -17,7 +17,7 @@ public class Box {
     }
 
     void open() {
-        if (IsOpen) {
+        if (isOpen) {
             System.out.println("Ящик открыт");
         } else {
             System.out.println("Ящик закрыт");
@@ -25,7 +25,7 @@ public class Box {
     }
 
     void full() {
-        if (IsEmpty) {
+        if (isEmpty) {
             System.out.println("Ящик пуст");
         } else {
             System.out.println("Ящик полон");
