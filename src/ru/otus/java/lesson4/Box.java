@@ -1,3 +1,5 @@
+package ru.otus.java.lesson4;
+
 public class Box {
 
     private int size;

@@ -1,3 +1,5 @@
+package ru.otus.java.lesson4;
+
 public class User {
     private String name;
     private String surname;
